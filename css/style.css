@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+*{font-family: 'Josefin Sans', sans-serif;}
+.wrapper{display: block; position: absolute; top:0px; left:0px; width: 100%; height: auto; background-color: #060110;font-family: 'Josefin Sans', sans-serif;}
+/* HEADER
+----------------------------------------------- */
+.header{display: block; position: relative; width: 100%; height: 500px; padding-top: 25px; overflow: hidden}
+.triangle{    
+    position: absolute;
+    border-left: 350px solid transparent;
+    border-right: 350px solid transparent;
+    border-bottom: 50px solid rgb(255, 255, 255);
+    bottom: 0px;
+    margin-left: calc((100% - 700px) / 2);
+    }
+.radius{position: absolute; top: -450px; left: -350px; width: 700px; height: 700px; border-radius: 100%; background: #0010ce; filter: blur(100px); opacity: 0.14}
+.radius2{position: absolute; top: 350px; right: -350px; width: 700px; height: 700px; border-radius: 100%; filter: blur(100px); opacity: 0.14; background: #c0392b;}
+.circle{position: absolute; top: 0px; width: 400px; height: 400px; background: #0010ce; border-radius: 100%; opacity: 0.5}
+.menu-bock{display: block; position: relative; width: auto; height: 75px; margin-right: 25px; margin-left: 50px; margin-bottom: 450px; margin-top: 0px}
+.menu-bock h1{display: inline-block; font-size: 16pt; margin-left: 20px}
+.logo{display: inline-block;width: 75px; width: 75px;}
+.menu{display: inline-block; position: absolute; top: 28px; margin-left: 25px}
+.menu * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.menu li {display: inline-block;list-style: outside none none;margin: 0 1.5em;overflow: hidden;}
+.menu a {padding: 0.3em 0;color: rgba(255, 255, 255, 0.5);position: relative;display: inline-block;letter-spacing: 1px;margin: 0;text-decoration: none;}
+.menu a:before,
+.menu a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.menu a:before {top: 100%;display: block;height: 3px;width: 100%;content: "";background-color: #c0392b;}
+.menu a:after {padding: 0.3em 0;position: absolute;top: 100%;left: 0;content: attr(data-hover);color: white;white-space: nowrap;}
+.menu li:hover a,
+.menu .active a {transform: translateY(-100%);}
+
+.content{display: block; position: absolute; height: 800px; width: 100%; background: #fff;}
+.post{display: flex; width: 80%; height: auto; margin: 70px 25px 0px 25px;overflow: hidden;}
+.pblock1{display: block;height: 400px; width: auto;}
+.pblock2{display: block;height: 250px; width: 100%;margin-left: 10px}
+.circles{display: block; position: absolute; width: 700px; height: 400px; margin-left: calc((100% - 700px) / 2)}
+.header-text{text-align: center; font-size: 24pt; margin-top: 30px; line-height: 50px}
+.post-text{color: #959da5; font-size: 16pt; text-overflow: ellipsis; text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); text-align: justify;}
