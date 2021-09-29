@@ -513,6 +513,7 @@ Buttons
 /* ==========================================================================
 Navigation
 ========================================================================== */
+.logo-d{font-family: 'Open Sans', sans-serif; font-size: 16pt;}
 .nav-toggle {
     position: absolute;
     top: 0;
